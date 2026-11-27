@@ -1,0 +1,596 @@
+{
+  "audit_schema_version": "1.0",
+  "exported_at": "2026-09-14T14:45:36.293325+00:00",
+  "case": {
+    "case_id": "CASE-578B91F8",
+    "recall_id": "PITCH_DEMO_FSAI_2026_38",
+    "state": "CLOSED",
+    "created_time": "2026-09-14T14:42:55.698406+00:00",
+    "updated_time": "2026-09-14T14:45:36.291323+00:00",
+    "analysis_revision": 1,
+    "last_analysis_time": "2026-09-14T14:42:55.698406+00:00",
+    "demo_profile": "QUICK_CLOSE_TWO_APPROVALS",
+    "demo_only": true,
+    "demo_record_status": null,
+    "demo_archived": false
+  },
+  "source_recall": {
+    "authority": "Food Safety Authority of Ireland (FSAI)",
+    "batch_codes": [
+      "SS16726"
+    ],
+    "best_before": [],
+    "hazard": "Listeria monocytogenes",
+    "official_recall_id": "2026.38",
+    "pack_sizes": [
+      "100g",
+      "150g",
+      "320g"
+    ],
+    "product_name": "K O'Connell Fishmongers Smoked Salmon Slices",
+    "published_date": "2026-07-01",
+    "recall_id": "FSAI_2026_38_1CA22E0FB5",
+    "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/update-to-recall-of-k-o-connell-fishmongers-smoked",
+    "use_by": [
+      "2026-07-17",
+      "2026-07-16"
+    ]
+  },
+  "exposure": {
+    "barcode": "5399000000398",
+    "batch": "SS16726",
+    "batch_match": true,
+    "brand_match": true,
+    "date_match": true,
+    "dispatch_records": [
+      {
+        "batch_code": "SS16726",
+        "customer": "Customer 073",
+        "date": "2026-06-29",
+        "dispatch_id": "D0192",
+        "quantity": "13",
+        "sku": "SKU398"
+      }
+    ],
+    "dispatched": 13,
+    "inventory_records": [
+      {
+        "batch_code": "SS16726",
+        "quantity": "17",
+        "site": "Dublin Distribution Centre",
+        "site_code": "DUB",
+        "sku": "SKU398"
+      }
+    ],
+    "matched_batches": [
+      "SS16726"
+    ],
+    "pack_size_match": true,
+    "product_identifier_match": null,
+    "product_identity_method": "NAME_BRAND_PACK",
+    "product_name": "K O'Connell Fishmongers Smoked Salmon Slices",
+    "product_name_match": true,
+    "product_name_similarity": 100.0,
+    "reason": "Product identity and one or more affected lots are supported by recall and company records.",
+    "reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+    "recall_id": "PITCH_DEMO_FSAI_2026_38",
+    "sku": "SKU398",
+    "source_evidence": {
+      "authority": "Food Safety Authority of Ireland (FSAI)",
+      "published_date": "2026-07-01",
+      "recall_batch_codes": [
+        "SS16726"
+      ],
+      "recall_best_before": [],
+      "recall_use_by": [
+        "2026-07-17",
+        "2026-07-16"
+      ],
+      "source_identifiers": [],
+      "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/update-to-recall-of-k-o-connell-fishmongers-smoked",
+      "source_verified": true
+    },
+    "status": "CONFIRMED",
+    "stock": 17,
+    "unresolved_date_batches": []
+  },
+  "resolution": {
+    "resolution_type": "CONFIRMED_RESPONSE_COMPLETE",
+    "exposure_status": "CONFIRMED",
+    "resolved_time": "2026-09-14T14:45:36.291323+00:00",
+    "note": "All operational response tasks and required human reviews were completed.",
+    "reanalysis_if_new_evidence": true
+  },
+  "closure": {
+    "closed_by": "Recall Incident Lead",
+    "closed_by_role": "Recall / Incident Manager",
+    "closed_time": "2026-09-14T14:45:36.291323+00:00",
+    "comment": "Live Demo case closed after the two required role-based approvals were recorded.",
+    "final_exposure_status": "CONFIRMED"
+  },
+  "precompleted_demo_evidence": [
+    {
+      "activity": "Full operational response workload represented as pre-completed demo evidence",
+      "note": "The normal operational tasks remain documented in demo_full_workflow_reference. Demo mode keeps only two human governance approvals active so closure can be shown quickly during the pitch.",
+      "status": "PRECOMPLETED_FOR_DEMO"
+    }
+  ],
+  "demo_full_workflow_reference": {
+    "note": "This is the normal full response workload that the prototype would use outside Demo mode. Demo mode shortens only the live human-action sequence.",
+    "review_count": 2,
+    "reviews": [
+      {
+        "assigned_role": "Quality & Food Safety Manager",
+        "title": "Review confirmed exposure finding"
+      },
+      {
+        "assigned_role": "Recall / Incident Manager",
+        "title": "Review downstream distribution trace"
+      }
+    ],
+    "task_count": 7,
+    "tasks": [
+      {
+        "approval_roles": [
+          "Warehouse Manager",
+          "Store / Site Manager"
+        ],
+        "assigned_to": "Warehouse Operator",
+        "requires_approval": true,
+        "title": "Hold remaining stock"
+      },
+      {
+        "approval_roles": [],
+        "assigned_to": "Warehouse Operator",
+        "requires_approval": false,
+        "title": "Verify physical quantity"
+      },
+      {
+        "approval_roles": [],
+        "assigned_to": "Logistics Operator",
+        "requires_approval": false,
+        "title": "Trace downstream distribution"
+      },
+      {
+        "approval_roles": [
+          "Logistics Manager",
+          "Warehouse Manager"
+        ],
+        "assigned_to": "Logistics Operator",
+        "requires_approval": true,
+        "title": "Pause further dispatch of affected lot"
+      },
+      {
+        "approval_roles": [
+          "Procurement Manager"
+        ],
+        "assigned_to": "Procurement Team",
+        "requires_approval": true,
+        "title": "Prepare supplier communication draft"
+      },
+      {
+        "approval_roles": [
+          "Quality & Food Safety Manager",
+          "Recall / Incident Manager"
+        ],
+        "assigned_to": "Customer Communications Team",
+        "requires_approval": true,
+        "title": "Prepare customer communication draft"
+      },
+      {
+        "approval_roles": [],
+        "assigned_to": "Quality & Food Safety Manager",
+        "requires_approval": false,
+        "title": "Record completion evidence"
+      }
+    ]
+  },
+  "demo_reset": null,
+  "demo_reset_history": [],
+  "tasks": [
+    {
+      "action_boundary": "Quick-close demo governance decision only. It does not execute a physical or external action automatically.",
+      "affected_site_code": "DUB",
+      "affected_site_name": "Dublin Distribution Centre",
+      "approval": {
+        "approver": "Dublin Site Manager",
+        "approver_role": "Store / Site Manager",
+        "comment": "Reviewed against the verified recall and traced company evidence.",
+        "decision": "APPROVED",
+        "time": "2026-09-14T14:45:17.092438+00:00"
+      },
+      "approval_mode": "ANY_ONE",
+      "approval_only": true,
+      "approval_roles": [
+        "Store / Site Manager"
+      ],
+      "approval_usernames": [
+        "site.manager"
+      ],
+      "approvals": [
+        {
+          "approver": "Dublin Site Manager",
+          "approver_role": "Store / Site Manager",
+          "approver_username": "site.manager",
+          "comment": "Reviewed against the verified recall and traced company evidence.",
+          "decision": "APPROVED",
+          "time": "2026-09-14T14:45:17.092438+00:00"
+        }
+      ],
+      "assigned_display_name": "Dublin Site Manager",
+      "assigned_to": "Store / Site Manager",
+      "assigned_username": "site.manager",
+      "completion_criteria": "The authorised role records the approval decision. Because this is an approval-only governance task, the task completes with that decision.",
+      "completion_evidence": [
+        "Authenticated human approval",
+        "Decision comment",
+        "Timestamped audit event"
+      ],
+      "completion_time": "2026-09-14T14:45:17.092438+00:00",
+      "created_time": "2026-09-14T14:43:05.979775+00:00",
+      "demo_approval_ordinal": 1,
+      "description": "Review the traced warehouse evidence, confirm the remaining affected stock is contained, and record completion of the warehouse task.",
+      "evidence": {
+        "affected_site_code": "DUB",
+        "affected_site_name": "Dublin Distribution Centre",
+        "containment_owner": "Dublin Site Manager",
+        "dispatched": 13,
+        "matched_batches": [
+          "SS16726"
+        ],
+        "official_fsai_alert": "2026.38",
+        "product": "K O'Connell Fishmongers Smoked Salmon Slices",
+        "reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+        "sku": "SKU398",
+        "source_recall_id": "FSAI_2026_38_1CA22E0FB5",
+        "stock": 17
+      },
+      "narrative_generated_time": null,
+      "narrative_model": null,
+      "narrative_source": "deterministic-template",
+      "priority": "HIGH",
+      "requires_approval": true,
+      "status": "COMPLETED",
+      "suggested_steps": [
+        "Review the structured evidence attached to this decision.",
+        "Record an approval comment if the evidence is sufficient.",
+        "Approve only if the stated control has been verified."
+      ],
+      "task_id": "T-BE3D44",
+      "template_suggested_steps": [
+        "Review the structured evidence attached to this decision.",
+        "Record an approval comment if the evidence is sufficient.",
+        "Approve only if the stated control has been verified."
+      ],
+      "template_why_generated": "Created after the agent confirms exposure so the manager responsible for the affected stock location, rather than the LLM, owns the physical containment decision.",
+      "title": "Confirm and complete affected stock containment",
+      "why_generated": "Created after the agent confirms exposure so the manager responsible for the affected stock location, rather than the LLM, owns the physical containment decision."
+    },
+    {
+      "action_boundary": "Quick-close demo governance decision only. It does not execute a physical or external action automatically.",
+      "affected_site_code": null,
+      "affected_site_name": null,
+      "approval": {
+        "decision": "APPROVED",
+        "approver": "Recall Incident Lead",
+        "approver_role": "Recall / Incident Manager",
+        "comment": "Reviewed against the verified recall and traced company evidence.",
+        "time": "2026-09-14T14:45:36.290321+00:00"
+      },
+      "approval_mode": "ANY_ONE",
+      "approval_only": true,
+      "approval_roles": [
+        "Recall / Incident Manager"
+      ],
+      "approval_usernames": [],
+      "approvals": [
+        {
+          "decision": "APPROVED",
+          "approver": "Recall Incident Lead",
+          "approver_role": "Recall / Incident Manager",
+          "approver_username": "incident.manager",
+          "comment": "Reviewed against the verified recall and traced company evidence.",
+          "time": "2026-09-14T14:45:36.290321+00:00"
+        }
+      ],
+      "assigned_display_name": null,
+      "assigned_to": "Recall / Incident Manager",
+      "assigned_username": null,
+      "completion_criteria": "The authorised role records the approval decision. Because this is an approval-only governance task, the task completes with that decision.",
+      "completion_evidence": [
+        "Authenticated human approval",
+        "Decision comment",
+        "Timestamped audit event"
+      ],
+      "completion_time": "2026-09-14T14:45:36.291323+00:00",
+      "created_time": "2026-09-14T14:43:05.979775+00:00",
+      "demo_approval_ordinal": 2,
+      "depends_on_task_ids": [
+        "T-BE3D44"
+      ],
+      "description": "Review the confirmed exposure, traceability evidence and local site manager decision, then authorise final closure of the demo case.",
+      "evidence": {
+        "affected_site_code": "DUB",
+        "affected_site_name": "Dublin Distribution Centre",
+        "containment_owner": "Dublin Site Manager",
+        "dispatched": 13,
+        "matched_batches": [
+          "SS16726"
+        ],
+        "official_fsai_alert": "2026.38",
+        "product": "K O'Connell Fishmongers Smoked Salmon Slices",
+        "reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+        "sku": "SKU398",
+        "source_recall_id": "FSAI_2026_38_1CA22E0FB5",
+        "stock": 17
+      },
+      "narrative_generated_time": null,
+      "narrative_model": null,
+      "narrative_source": "deterministic-template",
+      "priority": "HIGH",
+      "requires_approval": true,
+      "status": "COMPLETED",
+      "suggested_steps": [
+        "Review the structured evidence attached to this decision.",
+        "Record an approval comment if the evidence is sufficient.",
+        "Approve only if the stated control has been verified."
+      ],
+      "task_id": "T-AAA6EC",
+      "template_suggested_steps": [
+        "Review the structured evidence attached to this decision.",
+        "Record an approval comment if the evidence is sufficient.",
+        "Approve only if the stated control has been verified."
+      ],
+      "template_why_generated": "Created only after the local containment manager task is completed. This is the second and final authorised decision in the Live Demo.",
+      "title": "Review evidence and close the recall case",
+      "why_generated": "Created only after the local containment manager task is completed. This is the second and final authorised decision in the Live Demo."
+    }
+  ],
+  "reviews": [],
+  "task_history": [],
+  "review_history": [],
+  "recall_versioning": {
+    "recall_version": "0ca4d7c93ffebbc1",
+    "recall_snapshot": {
+      "barcodes": [],
+      "batch_codes": [
+        "SS16726"
+      ],
+      "best_before": [],
+      "brand": null,
+      "gtins": [],
+      "hazard": "Listeria monocytogenes",
+      "pack_sizes": [
+        "100g",
+        "150g",
+        "320g"
+      ],
+      "product_name": "K O'Connell Fishmongers Smoked Salmon Slices",
+      "use_by": [
+        "2026-07-17",
+        "2026-07-16"
+      ]
+    },
+    "previous_recall_snapshot": null,
+    "recall_change_summary": null
+  },
+  "local_llm_reasoning": {
+    "recommendation": {
+      "generated_time": "2026-09-14T14:43:05.965979+00:00",
+      "headline": "Operational Recommendation for SentiOH",
+      "justification": "Deterministic evidence engine indicates a confirmed exposure status.",
+      "model": "llama3.2:latest",
+      "recommended_next_step": "Human approval required for dispatch and dispatching of remaining stock."
+    },
+    "evidence_gap_analysis": null
+  },
+  "audit_timeline": [
+    {
+      "action": "CASE_CREATED",
+      "actor": "SYSTEM",
+      "details": {
+        "exposure_status": "CONFIRMED",
+        "state": "DETECTED"
+      },
+      "event_id": "EVT-2A7CFF6B",
+      "time": "2026-09-14T14:42:55.698406+00:00"
+    },
+    {
+      "action": "CASE_STATE_CHANGED",
+      "actor": "SYSTEM",
+      "details": {
+        "from": "DETECTED",
+        "to": "ANALYSING"
+      },
+      "event_id": "EVT-B7B086EF",
+      "time": "2026-09-14T14:42:55.698406+00:00"
+    },
+    {
+      "action": "CASE_STATE_CHANGED",
+      "actor": "SYSTEM",
+      "details": {
+        "from": "ANALYSING",
+        "to": "CONFIRMED"
+      },
+      "event_id": "EVT-7687030E",
+      "time": "2026-09-14T14:42:55.698406+00:00"
+    },
+    {
+      "action": "TASKS_CREATED",
+      "actor": "SYSTEM",
+      "details": {
+        "count": 7
+      },
+      "event_id": "EVT-D06873BD",
+      "time": "2026-09-14T14:42:55.698406+00:00"
+    },
+    {
+      "action": "REVIEWS_CREATED",
+      "actor": "SYSTEM",
+      "details": {
+        "count": 2
+      },
+      "event_id": "EVT-118EE399",
+      "time": "2026-09-14T14:42:55.698406+00:00"
+    },
+    {
+      "action": "RECALL_VERSION_REGISTERED",
+      "actor": "SYSTEM",
+      "details": {
+        "fingerprint": "0ca4d7c93ffebbc1"
+      },
+      "event_id": "EVT-1234F322",
+      "time": "2026-09-14T14:42:55.698406+00:00"
+    },
+    {
+      "action": "CASE_STATE_CHANGED",
+      "actor": "SYSTEM",
+      "details": {
+        "from": "CONFIRMED",
+        "reason": "Response tasks opened at human approval boundary",
+        "to": "RESPONDING"
+      },
+      "event_id": "EVT-42C17240",
+      "time": "2026-09-14T14:43:02.278142+00:00"
+    },
+    {
+      "action": "LOCAL_LLM_RECOMMENDATION_GENERATED",
+      "actor": "LOCAL_LLM",
+      "details": {
+        "model": "llama3.2:latest"
+      },
+      "event_id": "EVT-004020D7",
+      "time": "2026-09-14T14:43:05.965979+00:00"
+    },
+    {
+      "action": "DEMO_RESPONSE_WORKFLOW_STREAMLINED",
+      "actor": "SYSTEM",
+      "details": {
+        "active_review_count": 0,
+        "active_task_count": 2,
+        "approval_sequence": [
+          "Store / Site Manager",
+          "Recall / Incident Manager"
+        ],
+        "containment_owner": {
+          "display_name": "Dublin Site Manager",
+          "role": "Store / Site Manager",
+          "site_code": "DUB",
+          "site_name": "Dublin Distribution Centre",
+          "username": "site.manager"
+        },
+        "demo_profile": "QUICK_CLOSE_TWO_APPROVALS",
+        "investigation_and_exposure_unchanged": true,
+        "original_review_count": 2,
+        "original_task_count": 7
+      },
+      "event_id": "EVT-E9B49A88",
+      "time": "2026-09-14T14:43:05.979775+00:00"
+    },
+    {
+      "action": "TASK_APPROVAL_RECORDED",
+      "actor": "Dublin Site Manager",
+      "details": {
+        "approval_mode": "ANY_ONE",
+        "approver_role": "Store / Site Manager",
+        "comment": "Reviewed against the verified recall and traced company evidence.",
+        "task_id": "T-BE3D44"
+      },
+      "event_id": "EVT-9E2C833E",
+      "time": "2026-09-14T14:45:17.092438+00:00"
+    },
+    {
+      "action": "TASK_APPROVED",
+      "actor": "Dublin Site Manager",
+      "details": {
+        "approval_mode": "ANY_ONE",
+        "approval_only": true,
+        "approver_role": "Store / Site Manager",
+        "task_id": "T-BE3D44"
+      },
+      "event_id": "EVT-1CFC5A71",
+      "time": "2026-09-14T14:45:17.092438+00:00"
+    },
+    {
+      "action": "TASK_COMPLETED",
+      "actor": "Dublin Site Manager",
+      "details": {
+        "approver_role": "Store / Site Manager",
+        "completion_mode": "APPROVAL_ONLY",
+        "task_id": "T-BE3D44"
+      },
+      "event_id": "EVT-B3BF0581",
+      "time": "2026-09-14T14:45:17.092438+00:00"
+    },
+    {
+      "event_id": "EVT-CA896248",
+      "time": "2026-09-14T14:45:36.291323+00:00",
+      "actor": "Recall Incident Lead",
+      "action": "TASK_APPROVAL_RECORDED",
+      "details": {
+        "task_id": "T-AAA6EC",
+        "approver_role": "Recall / Incident Manager",
+        "approval_mode": "ANY_ONE",
+        "comment": "Reviewed against the verified recall and traced company evidence."
+      }
+    },
+    {
+      "event_id": "EVT-37A60897",
+      "time": "2026-09-14T14:45:36.291323+00:00",
+      "actor": "Recall Incident Lead",
+      "action": "TASK_APPROVED",
+      "details": {
+        "task_id": "T-AAA6EC",
+        "approver_role": "Recall / Incident Manager",
+        "approval_mode": "ANY_ONE",
+        "approval_only": true
+      }
+    },
+    {
+      "event_id": "EVT-3BF2F58F",
+      "time": "2026-09-14T14:45:36.291323+00:00",
+      "actor": "Recall Incident Lead",
+      "action": "TASK_COMPLETED",
+      "details": {
+        "task_id": "T-AAA6EC",
+        "completion_mode": "APPROVAL_ONLY",
+        "approver_role": "Recall / Incident Manager"
+      }
+    },
+    {
+      "event_id": "EVT-CCEF571F",
+      "time": "2026-09-14T14:45:36.291323+00:00",
+      "actor": "Recall Incident Lead",
+      "action": "CASE_STATE_CHANGED",
+      "details": {
+        "from": "RESPONDING",
+        "to": "RESOLVED",
+        "reason": "All operational tasks and required human reviews completed"
+      }
+    },
+    {
+      "event_id": "EVT-84FEA540",
+      "time": "2026-09-14T14:45:36.291323+00:00",
+      "actor": "Recall Incident Lead",
+      "action": "CASE_STATE_CHANGED",
+      "details": {
+        "from": "RESOLVED",
+        "to": "CLOSED",
+        "comment": "Live Demo case closed after the two required role-based approvals were recorded.",
+        "actor_role": "Recall / Incident Manager",
+        "closed_time": "2026-09-14T14:45:36.291323+00:00",
+        "final_exposure_status": "CONFIRMED"
+      }
+    },
+    {
+      "event_id": "EVT-EB0706A4",
+      "time": "2026-09-14T14:45:36.293325+00:00",
+      "actor": "SYSTEM",
+      "action": "AUDIT_EXPORT_GENERATED",
+      "details": {
+        "filename": "CASE-578B91F8_audit.json",
+        "generated_time": "2026-09-14T14:45:36.293325+00:00"
+      }
+    }
+  ]
+}

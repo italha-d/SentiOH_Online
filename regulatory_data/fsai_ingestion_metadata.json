@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-09-09T14:43:23.903677+00:00",
+  "input_csv": "fsai_recalls_corrected.csv",
+  "input_rows": 313,
+  "primary_product_scope_recalls": 181,
+  "review_required_product_scope_recalls": 3,
+  "official_authority": "Food Safety Authority of Ireland (FSAI)",
+  "missing_field_policy": "Preserve missing public values as null/empty; never infer them."
+}

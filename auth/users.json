@@ -1,0 +1,98 @@
+[
+  {
+    "username": "warehouse.operator",
+    "display_name": "Warehouse Operator",
+    "role": "Warehouse Operator",
+    "password_salt": "c570c893812e73542acb6a4d37a1b0fa",
+    "password_hash": "9b9b6e48408653b92ab52a3e2c823fea98d2fd3b414363c00df0f3b20e163ed0",
+    "enabled": true
+  },
+  {
+    "username": "warehouse.manager",
+    "display_name": "Galway Warehouse Manager",
+    "role": "Warehouse Manager",
+    "password_salt": "6f62b0e821db48bb684e8a9d0aed4c9f",
+    "password_hash": "95af4adc998a2e6e4680d03e7f9bc79d9ebdd3a596ea03dc96a9a66b7b1b762f",
+    "enabled": true
+  },
+  {
+    "username": "site.manager",
+    "display_name": "Dublin Site Manager",
+    "role": "Store / Site Manager",
+    "password_salt": "b5eec33612f55e15aee511891512ca6b",
+    "password_hash": "41045a9fdd36fd1fd5971fc4c624010252e4f55c846759c6f38dce6c17537e2d",
+    "enabled": true
+  },
+  {
+    "username": "cork.manager",
+    "display_name": "Cork Site Manager",
+    "role": "Store / Site Manager",
+    "password_salt": "ff11d90a907cc85b5b2237e4baff75b1",
+    "password_hash": "0bb3b6b17694e97cf5514335a47ef7dfb4328e59c459cbd3ac003dc4f20eefcf",
+    "enabled": true
+  },
+  {
+    "username": "logistics.operator",
+    "display_name": "Logistics Operator",
+    "role": "Logistics Operator",
+    "password_salt": "6afc97361c080a6909b588ceccdb9cb3",
+    "password_hash": "6ac2a7ea4638a8048bb8b31ad25cb0df0b66e289ce5ebae683110a2a7b60fac2",
+    "enabled": true
+  },
+  {
+    "username": "logistics.manager",
+    "display_name": "Logistics Manager",
+    "role": "Logistics Manager",
+    "password_salt": "0945024ec1a7491b09eeae08d5a69979",
+    "password_hash": "4f1bd4e5e4faaa27e61c9661540086a50fb4dc16c4fc4e6244def3d76e65fe7f",
+    "enabled": true
+  },
+  {
+    "username": "quality.manager",
+    "display_name": "Food Safety Lead",
+    "role": "Quality & Food Safety Manager",
+    "password_salt": "455aee6877f0f38a7a1ee097365eebbd",
+    "password_hash": "d6bab830a6b614591e1fcd5b2a96de0025ab45ca24de15254d0ad2bbe6d0864a",
+    "enabled": true
+  },
+  {
+    "username": "procurement.team",
+    "display_name": "Procurement Team Member",
+    "role": "Procurement Team",
+    "password_salt": "6d4b33aa4776c3f34d46559155c4f508",
+    "password_hash": "aae62ad4d1a69805394b434c36fa435c5340475632715cf3bb21b5983cc6b612",
+    "enabled": true
+  },
+  {
+    "username": "procurement.manager",
+    "display_name": "Procurement Manager",
+    "role": "Procurement Manager",
+    "password_salt": "2e7a9024f8d4cb8cb8c7e0b9a9d99aee",
+    "password_hash": "6f9659a6afefe0ddeb4beb664076b447dba214b50c569f9f3ef0e92a13262c00",
+    "enabled": true
+  },
+  {
+    "username": "communications.team",
+    "display_name": "Customer Communications Lead",
+    "role": "Customer Communications Team",
+    "password_salt": "0816f5e0bf2042dba1cb0a44540b17ae",
+    "password_hash": "d72c85d2e78de0c4e9ab8bea4178075302b99a2cb67e05430b6c2bb1e1d9611d",
+    "enabled": true
+  },
+  {
+    "username": "incident.manager",
+    "display_name": "Recall Incident Lead",
+    "role": "Recall / Incident Manager",
+    "password_salt": "193436d947e605c8c45547acb3cc33ca",
+    "password_hash": "b8b9539da35f2a987b9678d32adad9eff2c597eb37c698f8dcb19c43f6763132",
+    "enabled": true
+  },
+  {
+    "username": "senior.manager",
+    "display_name": "Senior Responsible Manager",
+    "role": "Senior Responsible Manager",
+    "password_salt": "8a3703b250e55f238516ec4fca73fb18",
+    "password_hash": "7204e724148f4200be63914d7c32daac41174a142b9bc92daaeb3e25588914b6",
+    "enabled": true
+  }
+]

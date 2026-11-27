@@ -1,0 +1,22 @@
+{
+  "seed": 20260903,
+  "catalogue_products": 400,
+  "suppliers": 25,
+  "batch_records": 900,
+  "sites": 3,
+  "inventory_records": 661,
+  "purchase_orders": 629,
+  "dispatch_records": 785,
+  "ground_truth_scenarios": 12,
+  "real_fsai_showcase_scenarios": 9,
+  "regulatory_snapshot": {
+    "primary_product_scope_recalls": 181,
+    "review_required_product_scope_recalls": 3,
+    "official_alert_ids": 50
+  },
+  "provenance": {
+    "regulatory_records": "Official FSAI food-alert records ingested from the corrected scraper/snapshot. Missing public fields remain empty; review-required records are separated.",
+    "company_records": "Synthetic challenge sandbox records. Nine synthetic company SKUs are deliberately seeded against genuine FSAI recalls: three CONFIRMED, three POSSIBLE and three NOT_AFFECTED showcase outcomes.",
+    "synthetic_recall_fixtures": "Three legacy synthetic recalls retained only for fallback/regression tests."
+  }
+}

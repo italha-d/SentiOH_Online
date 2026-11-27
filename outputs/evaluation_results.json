@@ -1,0 +1,188 @@
+{
+  "dataset_type": "SYNTHETIC_PROTOTYPE_EVALUATION",
+  "scenario_count": 12,
+  "accuracy": 1.0,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "per_class": {
+    "CONFIRMED": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    },
+    "POSSIBLE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1
+    },
+    "NOT_AFFECTED": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 6
+    },
+    "INSUFFICIENT_EVIDENCE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    }
+  },
+  "confusion_matrix": [
+    {
+      "expected": "CONFIRMED",
+      "CONFIRMED": 2,
+      "POSSIBLE": 0,
+      "NOT_AFFECTED": 0,
+      "INSUFFICIENT_EVIDENCE": 0
+    },
+    {
+      "expected": "POSSIBLE",
+      "CONFIRMED": 0,
+      "POSSIBLE": 1,
+      "NOT_AFFECTED": 0,
+      "INSUFFICIENT_EVIDENCE": 0
+    },
+    {
+      "expected": "NOT_AFFECTED",
+      "CONFIRMED": 0,
+      "POSSIBLE": 0,
+      "NOT_AFFECTED": 6,
+      "INSUFFICIENT_EVIDENCE": 0
+    },
+    {
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "CONFIRMED": 0,
+      "POSSIBLE": 0,
+      "NOT_AFFECTED": 0,
+      "INSUFFICIENT_EVIDENCE": 3
+    }
+  ],
+  "scenario_results": [
+    {
+      "scenario_id": "SCN001",
+      "scenario_type": "TRUE_AFFECTED_PRODUCT",
+      "recall_id": "FSAI_DEMO_001",
+      "sku": "SKU001",
+      "expected": "CONFIRMED",
+      "predicted": "CONFIRMED",
+      "reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN002",
+      "scenario_type": "SAME_PRODUCT_WRONG_LOT",
+      "recall_id": "FSAI_DEMO_001",
+      "sku": "SKU004",
+      "expected": "NOT_AFFECTED",
+      "predicted": "NOT_AFFECTED",
+      "reason_code": "LOT_MISMATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN003",
+      "scenario_type": "SIMILAR_NAME_FALSE_POSITIVE",
+      "recall_id": "FSAI_DEMO_001",
+      "sku": "SKU003",
+      "expected": "NOT_AFFECTED",
+      "predicted": "NOT_AFFECTED",
+      "reason_code": "PRODUCT_ATTRIBUTES_MISMATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN004",
+      "scenario_type": "WRONG_PACK_SIZE",
+      "recall_id": "FSAI_DEMO_001",
+      "sku": "SKU002",
+      "expected": "NOT_AFFECTED",
+      "predicted": "NOT_AFFECTED",
+      "reason_code": "PRODUCT_ATTRIBUTES_MISMATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN005",
+      "scenario_type": "MISSING_LOT_POSSIBLE",
+      "recall_id": "FSAI_DEMO_002",
+      "sku": "SKU005",
+      "expected": "POSSIBLE",
+      "predicted": "POSSIBLE",
+      "reason_code": "LOT_SCOPE_NOT_SPECIFIED",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN006",
+      "scenario_type": "SIMILAR_NAME_FALSE_POSITIVE",
+      "recall_id": "FSAI_DEMO_002",
+      "sku": "SKU006",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "reason_code": "PRODUCT_IDENTITY_UNCLEAR",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN007",
+      "scenario_type": "WRONG_PACK_SIZE",
+      "recall_id": "FSAI_DEMO_002",
+      "sku": "SKU007",
+      "expected": "NOT_AFFECTED",
+      "predicted": "NOT_AFFECTED",
+      "reason_code": "PRODUCT_ATTRIBUTES_MISMATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN008",
+      "scenario_type": "TRUE_AFFECTED_PRODUCT",
+      "recall_id": "FSAI_DEMO_003",
+      "sku": "SKU008",
+      "expected": "CONFIRMED",
+      "predicted": "CONFIRMED",
+      "reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN009",
+      "scenario_type": "SAME_PRODUCT_WRONG_LOT",
+      "recall_id": "FSAI_DEMO_003",
+      "sku": "SKU009",
+      "expected": "NOT_AFFECTED",
+      "predicted": "NOT_AFFECTED",
+      "reason_code": "LOT_MISMATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN010",
+      "scenario_type": "SIMILAR_NAME_FALSE_POSITIVE",
+      "recall_id": "FSAI_DEMO_003",
+      "sku": "SKU010",
+      "expected": "NOT_AFFECTED",
+      "predicted": "NOT_AFFECTED",
+      "reason_code": "PRODUCT_ATTRIBUTES_MISMATCH",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN011",
+      "scenario_type": "UNRELATED_PRODUCT",
+      "recall_id": "FSAI_DEMO_001",
+      "sku": "SKU100",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "reason_code": "PRODUCT_IDENTITY_UNCLEAR",
+      "pass": true
+    },
+    {
+      "scenario_id": "SCN012",
+      "scenario_type": "UNRELATED_PRODUCT",
+      "recall_id": "FSAI_DEMO_003",
+      "sku": "SKU250",
+      "expected": "INSUFFICIENT_EVIDENCE",
+      "predicted": "INSUFFICIENT_EVIDENCE",
+      "reason_code": "PRODUCT_IDENTITY_UNCLEAR",
+      "pass": true
+    }
+  ],
+  "warning": "Metrics are calculated only on locked synthetic prototype scenarios and are not real-world FSAI/RASFF performance estimates."
+}

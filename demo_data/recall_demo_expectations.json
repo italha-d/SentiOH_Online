@@ -1,0 +1,29 @@
+[
+  {
+    "recall_id": "FSAI_DEMO_001",
+    "expected_sku": "SKU001",
+    "expected_status": "CONFIRMED",
+    "expected_reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+    "expected_stock": 41,
+    "expected_dispatched": 27,
+    "purpose": "Exact product identifier + exact lot/date confirmed exposure."
+  },
+  {
+    "recall_id": "FSAI_DEMO_002",
+    "expected_sku": "SKU005",
+    "expected_status": "POSSIBLE",
+    "expected_reason_code": "LOT_SCOPE_NOT_SPECIFIED",
+    "expected_stock": 60,
+    "expected_dispatched": 15,
+    "purpose": "Matching product/date but recall has no decisive lot scope."
+  },
+  {
+    "recall_id": "FSAI_DEMO_003",
+    "expected_sku": "SKU008",
+    "expected_status": "CONFIRMED",
+    "expected_reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+    "expected_stock": 12,
+    "expected_dispatched": 4,
+    "purpose": "Exact product identifier + exact lot/best-before confirmed exposure."
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "recall_id": "FSAI_DEMO_001",
+  "sku": "SKU001",
+  "product_name": "Smoked Salmon Slices",
+  "status": "CONFIRMED",
+  "batch": "SS16726",
+  "stock": 41,
+  "dispatched": 27,
+  "reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+  "reason": "Product identity and affected lot are supported by the recall and company records."
+}

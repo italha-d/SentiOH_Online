@@ -1,0 +1,4 @@
+sku,barcode,product_name,brand,pack_size,supplier_id
+SKU001,5390000000011,Smoked Salmon Slices,Example Fish Company,150g,SUP001
+SKU002,5390000000012,Smoked Salmon Portions,Example Fish Company,200g,SUP001
+SKU003,5390000000013,Sesame Seeds,Fresh Foods,100g,SUP002

@@ -1,0 +1,401 @@
+sku,barcode,product_name,brand,pack_size,supplier_id
+SKU001,5390000000011,Smoked Salmon Slices,Example Fish Company,150g,SUP001
+SKU002,5390000000012,Smoked Salmon Slices,Example Fish Company,200g,SUP001
+SKU003,5390000000013,Smoked Salmon Slices Premium,Atlantic Harvest,150g,SUP007
+SKU004,5390000000014,Smoked Salmon Slices,Example Fish Company,150g,SUP001
+SKU005,5390000000015,Sesame Seeds,Fresh Foods,100g,SUP002
+SKU006,5390000000016,Sesame Seed Crackers,Fresh Foods,100g,SUP002
+SKU007,5390000000017,Sesame Seeds,Fresh Foods,250g,SUP002
+SKU008,5390000000018,Peanut Butter Crunch,Nut Grove,340g,SUP003
+SKU009,5390000000019,Peanut Butter Crunch,Nut Grove,340g,SUP003
+SKU010,5390000000020,Peanut Butter Crunchy Bites,Westland,340g,SUP018
+SKU011,5390000000021,Spicy Pumpkin Seeds,Orchard House,750ml,SUP012
+SKU012,5390000000022,Family Mackerel Fillets,Atlantic Harvest,1L,SUP004
+SKU013,5390000000023,Wholegrain Baked Beans,Prime Pantry,80g,SUP009
+SKU014,5390000000024,Dark Chocolate,Blue Coast,125g,SUP024
+SKU015,5390000000025,Fresh Granola,Orchard House,750g,SUP005
+SKU016,5390000000026,Coconut Milk,Island Select,100g,SUP011
+SKU017,5390000000027,Fresh Muesli,Golden Grain,300g,SUP011
+SKU018,5390000000028,Natural Still Water,Prime Pantry,180g,SUP023
+SKU019,5390000000029,Herb Apple Juice,Island Select,750ml,SUP006
+SKU020,5390000000030,Coffee Beans,Orchard House,750g,SUP020
+SKU021,5390000000031,Black Tea,Continental Choice,180g,SUP022
+SKU022,5390000000032,Mustard,Atlantic Harvest,250g,SUP012
+SKU023,5390000000033,Premium Still Water,Green Farm,500g,SUP006
+SKU024,5390000000034,Classic Mozzarella Cheese,Continental Choice,330ml,SUP015
+SKU025,5390000000035,Creamy Chocolate Biscuits,Celtic Foods,100g,SUP024
+SKU026,5390000000036,Herbal Tea,Harbour Foods,125g,SUP001
+SKU027,5390000000037,Smoked Tomato Passata,Northshore,150g,SUP023
+SKU028,5390000000038,Mild Sardines,Riverbend,750g,SUP012
+SKU029,5390000000039,Farmhouse Canned Lentils,Blue Coast,1kg,SUP002
+SKU030,5390000000040,Jasmine Rice,Island Select,750g,SUP019
+SKU031,5390000000041,Green Tea,Riverbend,1kg,SUP007
+SKU032,5390000000042,Natural Balsamic Vinegar,Harbour Foods,180g,SUP022
+SKU033,5390000000043,Roasted Sesame Oil,Atlantic Harvest,180g,SUP017
+SKU034,5390000000044,Pasta Sauce,Sunrise,340g,SUP003
+SKU035,5390000000045,Premium Hazelnut Spread,Northshore,150g,SUP016
+SKU036,5390000000046,White Vinegar,Island Select,300g,SUP023
+SKU037,5390000000047,Family Mayonnaise,Burren Select,100g,SUP011
+SKU038,5390000000048,Mozzarella Cheese,Continental Choice,750ml,SUP024
+SKU039,5390000000049,Organic Oat Drink,Oakfield,750g,SUP014
+SKU040,5390000000050,Crunchy Garlic Powder,Irish Pantry,750g,SUP001
+SKU041,5390000000051,Natural Mayonnaise,Harbour Foods,150g,SUP020
+SKU042,5390000000052,Light Cashew Nuts,Prime Pantry,500ml,SUP004
+SKU043,5390000000053,Select Sea Salt,Green Farm,300g,SUP023
+SKU044,5390000000054,Muesli,Atlantic Harvest,330ml,SUP009
+SKU045,5390000000055,Kidney Beans,Green Farm,80g,SUP001
+SKU046,5390000000056,Oat Biscuits,Atlantic Harvest,300g,SUP002
+SKU047,5390000000057,Almonds,Prime Pantry,150g,SUP015
+SKU048,5390000000058,Spicy Strawberry Jam,Island Select,300g,SUP007
+SKU049,5390000000059,Irish Sunflower Seeds,Harbour Foods,1kg,SUP021
+SKU050,5390000000060,Chocolate Biscuits,Oakfield,500g,SUP025
+SKU051,5390000000061,Golden Canned Lentils,Orchard House,250g,SUP004
+SKU052,5390000000062,Creamy Pesto,Orchard House,300g,SUP003
+SKU053,5390000000063,Canned Lentils,Irish Pantry,200g,SUP010
+SKU054,5390000000064,Roasted Greek Style Yoghurt,Harbour Foods,1kg,SUP003
+SKU055,5390000000065,Spicy Rice Cakes,Riverbend,100g,SUP015
+SKU056,5390000000066,Organic Pasta Sauce,Oakfield,300g,SUP007
+SKU057,5390000000067,Honey,Sunrise,500g,SUP002
+SKU058,5390000000068,Oat Cereal,Sunrise,500ml,SUP024
+SKU059,5390000000069,Select Strawberry Jam,Celtic Foods,200g,SUP011
+SKU060,5390000000070,Salted Spaghetti,Celtic Foods,180g,SUP009
+SKU061,5390000000071,Golden Mayonnaise,Green Valley,180g,SUP014
+SKU062,5390000000072,Premium Cashew Nuts,Green Farm,340g,SUP025
+SKU063,5390000000073,Cheddar Cheese,Westland,330ml,SUP003
+SKU064,5390000000074,Family Kidney Beans,Harbour Foods,150g,SUP020
+SKU065,5390000000075,Olive Oil,Irish Pantry,180g,SUP014
+SKU066,5390000000076,Traditional Black Pepper,Meadow Dairy,750ml,SUP023
+SKU067,5390000000077,Granola,Loughside,1L,SUP015
+SKU068,5390000000078,Orange Marmalade,Sunrise,1kg,SUP010
+SKU069,5390000000079,Crunchy Mixed Nuts,Blue Coast,330ml,SUP022
+SKU070,5390000000080,Premium Mackerel Fillets,Green Valley,150g,SUP007
+SKU071,5390000000081,Herb Garlic Powder,Continental Choice,330ml,SUP009
+SKU072,5390000000082,Unsalted Apple Juice,Burren Select,200g,SUP002
+SKU073,5390000000083,Smoked Golden Syrup,Celtic Foods,300g,SUP002
+SKU074,5390000000084,Family Olive Oil,Northshore,400g,SUP009
+SKU075,5390000000085,Golden Sunflower Seeds,Riverbend,500ml,SUP003
+SKU076,5390000000086,Almond Drink,Oakfield,340g,SUP025
+SKU077,5390000000087,Dried Basil,Harbour Foods,400g,SUP015
+SKU078,5390000000088,Oat Biscuits,Oakfield,100g,SUP004
+SKU079,5390000000089,Mediterranean Oat Drink,Orchard House,180g,SUP003
+SKU080,5390000000090,Family Mixed Vegetables,Irish Pantry,330ml,SUP004
+SKU081,5390000000091,Sea Salt,Island Select,125g,SUP020
+SKU082,5390000000092,Orange Marmalade,Sunrise,330ml,SUP007
+SKU083,5390000000093,Creamy Dark Chocolate,Riverbend,250g,SUP009
+SKU084,5390000000094,Black Tea,Loughside,400g,SUP014
+SKU085,5390000000095,Walnuts,Loughside,250g,SUP011
+SKU086,5390000000096,Spicy Mozzarella Cheese,Blue Coast,150g,SUP018
+SKU087,5390000000097,Unsalted Peanut Butter Smooth,Continental Choice,300g,SUP025
+SKU088,5390000000098,Canned Chickpeas,Loughside,150g,SUP013
+SKU089,5390000000099,Creamy Dried Oregano,Island Select,500g,SUP020
+SKU090,5390000000100,Sunflower Seeds,Harbour Foods,100g,SUP025
+SKU091,5390000000101,Walnuts,Green Valley,300g,SUP004
+SKU092,5390000000102,Sunflower Seeds,Burren Select,200g,SUP007
+SKU093,5390000000103,Creamy Hazelnut Spread,Northshore,400g,SUP008
+SKU094,5390000000104,Classic Herbal Tea,Harbour Foods,300g,SUP023
+SKU095,5390000000105,Orange Juice,Harbour Foods,1kg,SUP010
+SKU096,5390000000106,Fresh Coffee Beans,Riverbend,150g,SUP001
+SKU097,5390000000107,Spicy Tomato Puree,Loughside,1kg,SUP020
+SKU098,5390000000108,Rapeseed Oil,Sunrise,300g,SUP023
+SKU099,5390000000109,Mediterranean Jasmine Rice,Northshore,180g,SUP014
+SKU100,5390000000110,Spicy Tuna Chunks,Island Select,250g,SUP019
+SKU101,5390000000111,Creamy Sparkling Water,Oakfield,125g,SUP009
+SKU102,5390000000112,Crunchy Salsa,Green Farm,500g,SUP004
+SKU103,5390000000113,Olive Oil,Orchard House,180g,SUP021
+SKU104,5390000000114,Original Sweetcorn,Sunrise,100g,SUP013
+SKU105,5390000000115,Paprika,Orchard House,125g,SUP023
+SKU106,5390000000116,Herb Black Pepper,Prime Pantry,1L,SUP005
+SKU107,5390000000117,Brown Rice,Blue Coast,330ml,SUP001
+SKU108,5390000000118,Mayonnaise,Harbour Foods,400g,SUP009
+SKU109,5390000000119,Trail Mix,Irish Pantry,400g,SUP005
+SKU110,5390000000120,Rapeseed Oil,Riverbend,750ml,SUP004
+SKU111,5390000000121,Sunflower Seeds,Green Valley,180g,SUP021
+SKU112,5390000000122,Sparkling Water,Atlantic Harvest,180g,SUP004
+SKU113,5390000000123,Oat Drink,Sunrise,330ml,SUP004
+SKU114,5390000000124,Crunchy Apple Juice,Oakfield,80g,SUP019
+SKU115,5390000000125,Organic Dried Basil,Green Valley,500g,SUP011
+SKU116,5390000000126,Salsa,Harbour Foods,750g,SUP008
+SKU117,5390000000127,Select Tomato Soup,Riverbend,330ml,SUP017
+SKU118,5390000000128,Mackerel Fillets,Celtic Foods,300g,SUP008
+SKU119,5390000000129,Organic Fruit Bars,Riverbend,1L,SUP013
+SKU120,5390000000130,Irish Golden Syrup,Golden Grain,125g,SUP003
+SKU121,5390000000131,Original Chicken Soup,Sunrise,400g,SUP001
+SKU122,5390000000132,Sea Salt,Green Farm,750ml,SUP007
+SKU123,5390000000133,Roasted Mayonnaise,Meadow Dairy,330ml,SUP022
+SKU124,5390000000134,Premium Oat Biscuits,Continental Choice,200g,SUP016
+SKU125,5390000000135,Wholegrain Tomato Soup,Loughside,180g,SUP001
+SKU126,5390000000136,Creamy Salmon Portions,Green Valley,1L,SUP021
+SKU127,5390000000137,White Vinegar,Riverbend,500ml,SUP005
+SKU128,5390000000138,Golden Syrup,Burren Select,340g,SUP006
+SKU129,5390000000139,Creamy Basmati Rice,Irish Pantry,250g,SUP025
+SKU130,5390000000140,Fresh Cod Fillets,Continental Choice,150g,SUP007
+SKU131,5390000000141,Sunflower Seeds,Green Valley,125g,SUP020
+SKU132,5390000000142,Granola,Westland,1kg,SUP004
+SKU133,5390000000143,Traditional Coconut Cream,Harbour Foods,400g,SUP003
+SKU134,5390000000144,Spaghetti,Meadow Dairy,150g,SUP017
+SKU135,5390000000145,Premium Sesame Oil,Celtic Foods,750ml,SUP024
+SKU136,5390000000146,Roasted Oat Drink,Harbour Foods,500ml,SUP014
+SKU137,5390000000147,Hazelnut Spread,Burren Select,200g,SUP013
+SKU138,5390000000148,Natural Sardines,Irish Pantry,200g,SUP011
+SKU139,5390000000149,Classic White Vinegar,Westland,250g,SUP009
+SKU140,5390000000150,Traditional Garlic Powder,Green Farm,100g,SUP018
+SKU141,5390000000151,Premium Spinach,Riverbend,80g,SUP014
+SKU142,5390000000152,Wholegrain Pumpkin Seeds,Prime Pantry,125g,SUP007
+SKU143,5390000000153,Unsalted Coconut Water,Harbour Foods,100g,SUP004
+SKU144,5390000000154,Select Spinach,Green Valley,400g,SUP023
+SKU145,5390000000155,Natural Still Water,Burren Select,400g,SUP011
+SKU146,5390000000156,Paprika,Loughside,150g,SUP004
+SKU147,5390000000157,Fruit Bars,Golden Grain,500ml,SUP021
+SKU148,5390000000158,Wholegrain Mackerel Fillets,Blue Coast,80g,SUP017
+SKU149,5390000000159,Spicy Coconut Milk,Oakfield,250g,SUP021
+SKU150,5390000000160,Mayonnaise,Green Valley,1L,SUP025
+SKU151,5390000000161,Creamy Salmon Portions,Island Select,750ml,SUP006
+SKU152,5390000000162,Crunchy Cod Fillets,Green Valley,250g,SUP006
+SKU153,5390000000163,Smoked Canned Lentils,Atlantic Harvest,1kg,SUP016
+SKU154,5390000000164,Roasted Natural Yoghurt,Island Select,150g,SUP020
+SKU155,5390000000165,Mixed Nuts,Meadow Dairy,750ml,SUP002
+SKU156,5390000000166,Sesame Oil,Blue Coast,1L,SUP010
+SKU157,5390000000167,Salted Kidney Beans,Westland,125g,SUP003
+SKU158,5390000000168,Honey,Orchard House,80g,SUP005
+SKU159,5390000000169,Jasmine Rice,Westland,1L,SUP018
+SKU160,5390000000170,Salted Chocolate Biscuits,Westland,330ml,SUP022
+SKU161,5390000000171,Salted Spaghetti,Riverbend,300g,SUP001
+SKU162,5390000000172,Irish Chicken Soup,Oakfield,125g,SUP012
+SKU163,5390000000173,Crunchy Hazelnut Spread,Continental Choice,750g,SUP010
+SKU164,5390000000174,Coconut Water,Prime Pantry,750ml,SUP003
+SKU165,5390000000175,Almond Butter,Celtic Foods,150g,SUP021
+SKU166,5390000000176,Herb Sardines,Meadow Dairy,150g,SUP017
+SKU167,5390000000177,Organic Still Water,Westland,400g,SUP008
+SKU168,5390000000178,Apple Juice,Blue Coast,1L,SUP002
+SKU169,5390000000179,Farmhouse Canned Lentils,Green Valley,180g,SUP021
+SKU170,5390000000180,Tomato Puree,Golden Grain,180g,SUP015
+SKU171,5390000000181,Butter,Riverbend,250g,SUP024
+SKU172,5390000000182,Baked Beans,Irish Pantry,750ml,SUP001
+SKU173,5390000000183,Roasted Hummus,Northshore,180g,SUP019
+SKU174,5390000000184,Premium Oat Drink,Sunrise,80g,SUP010
+SKU175,5390000000185,Basmati Rice,Sunrise,180g,SUP023
+SKU176,5390000000186,Black Tea,Green Valley,330ml,SUP010
+SKU177,5390000000187,Curry Powder,Loughside,1L,SUP019
+SKU178,5390000000188,Farmhouse Peanut Butter Smooth,Meadow Dairy,150g,SUP006
+SKU179,5390000000189,Canned Lentils,Blue Coast,300g,SUP005
+SKU180,5390000000190,Sparkling Water,Prime Pantry,400g,SUP001
+SKU181,5390000000191,Penne Pasta,Island Select,200g,SUP004
+SKU182,5390000000192,Unsalted Sparkling Water,Burren Select,200g,SUP017
+SKU183,5390000000193,Organic Dried Oregano,Sunrise,150g,SUP002
+SKU184,5390000000194,Mustard,Prime Pantry,125g,SUP020
+SKU185,5390000000195,Mediterranean Golden Syrup,Northshore,150g,SUP013
+SKU186,5390000000196,Tomato Soup,Westland,125g,SUP014
+SKU187,5390000000197,Smoked Brown Rice,Green Farm,750ml,SUP008
+SKU188,5390000000198,Unsalted Curry Powder,Burren Select,330ml,SUP025
+SKU189,5390000000199,Fresh Basmati Rice,Harbour Foods,500g,SUP025
+SKU190,5390000000200,Black Tea,Burren Select,750g,SUP020
+SKU191,5390000000201,Fresh Walnuts,Sunrise,1kg,SUP004
+SKU192,5390000000202,Dried Basil,Irish Pantry,500g,SUP015
+SKU193,5390000000203,Vegetable Soup,Golden Grain,330ml,SUP009
+SKU194,5390000000204,Cheddar Cheese,Atlantic Harvest,1kg,SUP016
+SKU195,5390000000205,Chia Seeds,Northshore,180g,SUP010
+SKU196,5390000000206,Creamy White Vinegar,Oakfield,500ml,SUP012
+SKU197,5390000000207,Organic Sweetcorn,Celtic Foods,150g,SUP018
+SKU198,5390000000208,Smoked Sardines,Blue Coast,1L,SUP011
+SKU199,5390000000209,Crunchy Olive Oil,Prime Pantry,300g,SUP024
+SKU200,5390000000210,Black Pepper,Golden Grain,500ml,SUP013
+SKU201,5390000000211,Wholegrain Walnuts,Oakfield,1kg,SUP005
+SKU202,5390000000212,Classic Almonds,Riverbend,100g,SUP017
+SKU203,5390000000213,Original Salmon Portions,Riverbend,125g,SUP004
+SKU204,5390000000214,Chocolate Biscuits,Continental Choice,500ml,SUP001
+SKU205,5390000000215,Light Corn Flakes,Oakfield,180g,SUP015
+SKU206,5390000000216,Salted Muesli,Northshore,150g,SUP025
+SKU207,5390000000217,Coconut Milk,Island Select,80g,SUP024
+SKU208,5390000000218,Rice Cakes,Green Valley,180g,SUP011
+SKU209,5390000000219,Select Butter,Orchard House,250g,SUP020
+SKU210,5390000000220,Spicy Black Pepper,Riverbend,100g,SUP010
+SKU211,5390000000221,Almond Butter,Prime Pantry,330ml,SUP014
+SKU212,5390000000222,Oat Biscuits,Celtic Foods,80g,SUP007
+SKU213,5390000000223,Herb Frozen Peas,Sunrise,750g,SUP004
+SKU214,5390000000224,Wholegrain Chocolate Biscuits,Orchard House,250g,SUP013
+SKU215,5390000000225,Smoked Hazelnut Spread,Loughside,125g,SUP019
+SKU216,5390000000226,Herb White Vinegar,Harbour Foods,250g,SUP025
+SKU217,5390000000227,Original Coconut Cream,Island Select,200g,SUP012
+SKU218,5390000000228,Golden Syrup,Orchard House,150g,SUP017
+SKU219,5390000000229,Irish Kidney Beans,Island Select,1L,SUP009
+SKU220,5390000000230,Premium Basmati Rice,Green Farm,750ml,SUP018
+SKU221,5390000000231,Milk Chocolate,Northshore,1kg,SUP011
+SKU222,5390000000232,Orange Juice,Continental Choice,1L,SUP019
+SKU223,5390000000233,Original Mozzarella Cheese,Harbour Foods,330ml,SUP011
+SKU224,5390000000234,Sesame Oil,Green Valley,750ml,SUP010
+SKU225,5390000000235,Pasta Sauce,Green Farm,340g,SUP016
+SKU226,5390000000236,Golden Trail Mix,Celtic Foods,80g,SUP005
+SKU227,5390000000237,Herb Fruit Bars,Harbour Foods,330ml,SUP013
+SKU228,5390000000238,Natural Dried Oregano,Blue Coast,1kg,SUP025
+SKU229,5390000000239,Natural Protein Bars,Celtic Foods,200g,SUP007
+SKU230,5390000000240,Organic Sunflower Seeds,Burren Select,125g,SUP022
+SKU231,5390000000241,Herb Orange Juice,Oakfield,500g,SUP008
+SKU232,5390000000242,Fresh Almonds,Green Valley,500g,SUP024
+SKU233,5390000000243,Irish Pasta Sauce,Meadow Dairy,400g,SUP001
+SKU234,5390000000244,Golden Syrup,Meadow Dairy,150g,SUP017
+SKU235,5390000000245,Family Salmon Portions,Blue Coast,1L,SUP024
+SKU236,5390000000246,Wholegrain Crackers,Westland,125g,SUP021
+SKU237,5390000000247,Protein Bars,Irish Pantry,400g,SUP019
+SKU238,5390000000248,Salted Almond Drink,Harbour Foods,1kg,SUP004
+SKU239,5390000000249,Natural Black Tea,Oakfield,400g,SUP021
+SKU240,5390000000250,Walnuts,Harbour Foods,750g,SUP015
+SKU241,5390000000251,Mediterranean Cheddar Cheese,Golden Grain,500g,SUP016
+SKU242,5390000000252,Flax Seeds,Continental Choice,150g,SUP010
+SKU243,5390000000253,Natural Pasta Sauce,Celtic Foods,330ml,SUP008
+SKU244,5390000000254,Creamy Flax Seeds,Irish Pantry,180g,SUP020
+SKU245,5390000000255,Fresh Coconut Water,Sunrise,500ml,SUP015
+SKU246,5390000000256,Smoked Chicken Soup,Green Valley,200g,SUP005
+SKU247,5390000000257,Coconut Water,Meadow Dairy,340g,SUP013
+SKU248,5390000000258,Pasta Sauce,Golden Grain,750g,SUP012
+SKU249,5390000000259,Orange Marmalade,Northshore,300g,SUP014
+SKU250,5390000000260,Penne Pasta,Irish Pantry,125g,SUP002
+SKU251,5390000000261,Wholegrain Mozzarella Cheese,Continental Choice,200g,SUP005
+SKU252,5390000000262,Roasted Dark Chocolate,Northshore,1L,SUP019
+SKU253,5390000000263,Herb Dark Chocolate,Northshore,330ml,SUP020
+SKU254,5390000000264,Almond Drink,Irish Pantry,500ml,SUP001
+SKU255,5390000000265,Light Chicken Soup,Riverbend,150g,SUP002
+SKU256,5390000000266,Mozzarella Cheese,Sunrise,750ml,SUP012
+SKU257,5390000000267,Creamy Mixed Vegetables,Meadow Dairy,80g,SUP007
+SKU258,5390000000268,Original Wholegrain Crackers,Northshore,330ml,SUP016
+SKU259,5390000000269,Roasted Tomato Soup,Blue Coast,750g,SUP014
+SKU260,5390000000270,Mediterranean Coconut Cream,Continental Choice,125g,SUP003
+SKU261,5390000000271,Strawberry Jam,Prime Pantry,750g,SUP021
+SKU262,5390000000272,Light White Vinegar,Continental Choice,750g,SUP017
+SKU263,5390000000273,Wholegrain Crackers,Prime Pantry,750g,SUP008
+SKU264,5390000000274,Original Basmati Rice,Continental Choice,500ml,SUP008
+SKU265,5390000000275,Natural Granola,Oakfield,1kg,SUP015
+SKU266,5390000000276,Fresh Dark Chocolate,Irish Pantry,330ml,SUP020
+SKU267,5390000000277,Fruit Bars,Blue Coast,500g,SUP014
+SKU268,5390000000278,Olive Oil,Irish Pantry,1L,SUP015
+SKU269,5390000000279,Paprika,Island Select,500g,SUP014
+SKU270,5390000000280,Select Apple Juice,Golden Grain,340g,SUP007
+SKU271,5390000000281,Salted Tuna Chunks,Burren Select,330ml,SUP020
+SKU272,5390000000282,Black Pepper,Northshore,180g,SUP021
+SKU273,5390000000283,Creamy Sweetcorn,Golden Grain,250g,SUP013
+SKU274,5390000000284,Light Trail Mix,Irish Pantry,330ml,SUP006
+SKU275,5390000000285,Mild Oat Cereal,Meadow Dairy,750ml,SUP018
+SKU276,5390000000286,Irish Black Tea,Meadow Dairy,180g,SUP005
+SKU277,5390000000287,Creamy Coconut Water,Oakfield,125g,SUP025
+SKU278,5390000000288,Dried Oregano,Northshore,500g,SUP013
+SKU279,5390000000289,Organic Basmati Rice,Golden Grain,500ml,SUP007
+SKU280,5390000000290,Spicy Mixed Vegetables,Blue Coast,300g,SUP012
+SKU281,5390000000291,Natural Ground Coffee,Orchard House,250g,SUP016
+SKU282,5390000000292,Spicy Trail Mix,Atlantic Harvest,180g,SUP025
+SKU283,5390000000293,Light Granola,Green Valley,100g,SUP020
+SKU284,5390000000294,Herb Black Tea,Atlantic Harvest,340g,SUP003
+SKU285,5390000000295,Traditional Salsa,Celtic Foods,1kg,SUP006
+SKU286,5390000000296,Mixed Nuts,Green Valley,750ml,SUP015
+SKU287,5390000000297,Pesto,Orchard House,500ml,SUP024
+SKU288,5390000000298,Mediterranean Balsamic Vinegar,Prime Pantry,500g,SUP019
+SKU289,5390000000299,Mild Tomato Puree,Northshore,1L,SUP008
+SKU290,5390000000300,Herb Coconut Water,Island Select,750g,SUP015
+SKU291,5390000000301,Golden Sesame Oil,Irish Pantry,340g,SUP014
+SKU292,5390000000302,Maple Syrup,Sunrise,125g,SUP008
+SKU293,5390000000303,Trail Mix,Orchard House,400g,SUP001
+SKU294,5390000000304,Dried Oregano,Atlantic Harvest,150g,SUP019
+SKU295,5390000000305,Light Almond Butter,Golden Grain,80g,SUP002
+SKU296,5390000000306,Milk Chocolate,Golden Grain,330ml,SUP007
+SKU297,5390000000307,Pumpkin Seeds,Loughside,80g,SUP022
+SKU298,5390000000308,Creamy Oat Cereal,Sunrise,340g,SUP007
+SKU299,5390000000309,Farmhouse White Vinegar,Meadow Dairy,150g,SUP017
+SKU300,5390000000310,Natural Cheddar Cheese,Orchard House,200g,SUP003
+SKU301,5390000000311,Salted Coconut Milk,Golden Grain,80g,SUP024
+SKU302,5390000000312,Unsalted Sesame Oil,Meadow Dairy,100g,SUP014
+SKU303,5390000000313,Roasted Chia Seeds,Orchard House,1L,SUP018
+SKU304,5390000000314,Milk Chocolate,Orchard House,200g,SUP021
+SKU305,5390000000315,Traditional Coconut Cream,Meadow Dairy,500ml,SUP006
+SKU306,5390000000316,Spicy Mixed Nuts,Loughside,330ml,SUP017
+SKU307,5390000000317,Herb Broccoli,Harbour Foods,1kg,SUP021
+SKU308,5390000000318,Irish Muesli,Blue Coast,300g,SUP024
+SKU309,5390000000319,Kidney Beans,Golden Grain,330ml,SUP001
+SKU310,5390000000320,Herb Mayonnaise,Northshore,500ml,SUP013
+SKU311,5390000000321,Apple Juice,Loughside,340g,SUP010
+SKU312,5390000000322,Tuna Chunks,Northshore,80g,SUP019
+SKU313,5390000000323,Mixed Vegetables,Harbour Foods,750g,SUP006
+SKU314,5390000000324,Rapeseed Oil,Atlantic Harvest,250g,SUP023
+SKU315,5390000000325,Creamy Ground Coffee,Meadow Dairy,150g,SUP007
+SKU316,5390000000326,Salsa,Prime Pantry,500ml,SUP011
+SKU317,5390000000327,Spicy Orange Marmalade,Westland,200g,SUP007
+SKU318,5390000000328,Fresh Corn Flakes,Green Farm,80g,SUP016
+SKU319,5390000000329,Chocolate Biscuits,Blue Coast,1kg,SUP019
+SKU320,5390000000330,Paprika,Irish Pantry,150g,SUP003
+SKU321,5390000000331,Unsalted Spinach,Continental Choice,340g,SUP015
+SKU322,5390000000332,Balsamic Vinegar,Meadow Dairy,330ml,SUP014
+SKU323,5390000000333,Classic Fruit Bars,Sunrise,330ml,SUP023
+SKU324,5390000000334,Natural Baked Beans,Celtic Foods,150g,SUP020
+SKU325,5390000000335,Wholegrain Crackers,Orchard House,750ml,SUP007
+SKU326,5390000000336,Olive Oil,Atlantic Harvest,750ml,SUP024
+SKU327,5390000000337,Hummus,Prime Pantry,500ml,SUP001
+SKU328,5390000000338,Fresh Black Pepper,Burren Select,150g,SUP002
+SKU329,5390000000339,Smoked Pesto,Harbour Foods,125g,SUP013
+SKU330,5390000000340,Natural Yoghurt,Atlantic Harvest,1kg,SUP009
+SKU331,5390000000341,Maple Syrup,Green Farm,100g,SUP019
+SKU332,5390000000342,Light Maple Syrup,Continental Choice,125g,SUP012
+SKU333,5390000000343,Organic Vegetable Soup,Celtic Foods,330ml,SUP025
+SKU334,5390000000344,Traditional Trail Mix,Burren Select,150g,SUP017
+SKU335,5390000000345,Chicken Soup,Harbour Foods,180g,SUP017
+SKU336,5390000000346,Sea Salt,Irish Pantry,125g,SUP004
+SKU337,5390000000347,Premium Frozen Peas,Meadow Dairy,100g,SUP001
+SKU338,5390000000348,Natural Black Tea,Loughside,250g,SUP010
+SKU339,5390000000349,Irish Spinach,Celtic Foods,1L,SUP015
+SKU340,5390000000350,Spicy Maple Syrup,Atlantic Harvest,340g,SUP023
+SKU341,5390000000351,Mild Golden Syrup,Orchard House,100g,SUP017
+SKU342,5390000000352,Light Butter,Continental Choice,100g,SUP020
+SKU343,5390000000353,Irish Coconut Water,Harbour Foods,1L,SUP015
+SKU344,5390000000354,Natural Mixed Nuts,Sunrise,300g,SUP004
+SKU345,5390000000355,Natural Dried Oregano,Green Valley,500ml,SUP007
+SKU346,5390000000356,Original Hummus,Riverbend,125g,SUP002
+SKU347,5390000000357,Family Granola,Westland,400g,SUP015
+SKU348,5390000000358,Unsalted Hummus,Meadow Dairy,500g,SUP002
+SKU349,5390000000359,Almond Drink,Harbour Foods,125g,SUP014
+SKU350,5390000000360,Jasmine Rice,Green Valley,500g,SUP010
+SKU351,5390000000361,Rapeseed Oil,Golden Grain,300g,SUP016
+SKU352,5390000000362,Kidney Beans,Continental Choice,180g,SUP021
+SKU353,5390000000363,Still Water,Westland,300g,SUP008
+SKU354,5390000000364,Smoked Pasta Sauce,Irish Pantry,400g,SUP017
+SKU355,5390000000365,Roasted Orange Juice,Oakfield,750g,SUP009
+SKU356,5390000000366,Farmhouse White Vinegar,Northshore,750ml,SUP012
+SKU357,5390000000367,Dried Basil,Green Farm,500ml,SUP013
+SKU358,5390000000368,Protein Bars,Celtic Foods,500ml,SUP003
+SKU359,5390000000369,Crunchy Sunflower Seeds,Prime Pantry,1kg,SUP017
+SKU360,5390000000370,Salted Butter,Green Valley,200g,SUP024
+SKU361,5390000000371,Salmon Portions,Island Select,400g,SUP012
+SKU362,5390000000372,Roasted Orange Marmalade,Riverbend,400g,SUP012
+SKU363,5390000000373,Protein Bars,Meadow Dairy,340g,SUP004
+SKU364,5390000000374,Oat Drink,Burren Select,180g,SUP010
+SKU365,5390000000375,Creamy Rapeseed Oil,Harbour Foods,1kg,SUP021
+SKU366,5390000000376,Rapeseed Oil,Island Select,1kg,SUP020
+SKU367,5390000000377,Organic Tomato Soup,Loughside,340g,SUP005
+SKU368,5390000000378,Muesli,Loughside,1kg,SUP008
+SKU369,5390000000379,White Vinegar,Oakfield,500ml,SUP024
+SKU370,5390000000380,Cheddar Cheese,Island Select,330ml,SUP010
+SKU371,5390000000381,Balsamic Vinegar,Orchard House,80g,SUP011
+SKU372,5390000000382,Chicken Soup,Irish Pantry,250g,SUP021
+SKU373,5390000000383,Salted Chia Seeds,Blue Coast,100g,SUP021
+SKU374,5390000000384,Crunchy Mixed Nuts,Northshore,400g,SUP018
+SKU375,5390000000385,Classic Dark Chocolate,Island Select,300g,SUP011
+SKU376,5390000000386,Salted Sea Salt,Blue Coast,750g,SUP019
+SKU377,5390000000387,Natural Yoghurt,Loughside,100g,SUP003
+SKU378,5390000000388,Tomato Passata,Sunrise,750ml,SUP006
+SKU379,5390000000389,Fresh Apple Juice,Prime Pantry,500g,SUP008
+SKU380,5390000000390,Mustard,Green Valley,125g,SUP017
+SKU381,5390000000391,Spicy Curry Powder,Continental Choice,750g,SUP004
+SKU382,5390000000392,Premium Muesli,Sunrise,400g,SUP021
+SKU383,5390000000393,Sweetcorn,Meadow Dairy,1L,SUP016
+SKU384,5390000000394,Black Pepper,Island Select,500g,SUP017
+SKU385,5390000000395,Maple Syrup,Irish Pantry,500ml,SUP014
+SKU386,5390000000396,Flax Seeds,Golden Grain,100g,SUP013
+SKU387,5390000000397,Mackerel Fillets,Atlantic Harvest,400g,SUP006
+SKU388,5390000000398,Spicy Strawberry Jam,Celtic Foods,250g,SUP006
+SKU389,5390000000399,Family White Vinegar,Green Valley,180g,SUP007
+SKU390,5390000000400,Spinach,Blue Coast,1kg,SUP018
+SKU391,5390000000401,Light Sparkling Water,Loughside,500g,SUP024
+SKU392,5399000000392,Deluxe Spanish Castellano Sheeps’ Cheese,Deluxe,150g,SUP004
+SKU393,5399000000393,Gem Sesame Seeds,Gem,1kg,SUP006
+SKU394,5399000000394,SuperValu Seed Mix,SuperValu,200g,SUP023
+SKU395,5399000000395,Ortiz Sardines in Olive Oil,Ortiz,190g glass jar,SUP001
+SKU396,5399000000396,Compania Indilor Orientale Susan Sesame Seeds,Compania Indilor Orientale,50g,SUP006
+SKU397,5399000000397,Leis Sauerampfer (Sorrel),Leis,250g,SUP006
+SKU398,5399000000398,K O'Connell Fishmongers Smoked Salmon Slices,K O'Connell Fishmongers,150g,SUP015
+SKU399,5399000000399,Tesco Sesame Seeds,Tesco,100g,SUP020
+SKU400,5399000000400,SuperValu Sesame Seeds,SuperValu,200g,SUP015

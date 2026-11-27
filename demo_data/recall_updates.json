@@ -1,0 +1,17 @@
+[
+  {
+    "update_id": "DEMO_UPDATE_001",
+    "recall_id": "FSAI_DEMO_001",
+    "description": "Synthetic recall revision adds a second affected lot and its use-by date.",
+    "patch": {
+      "batch_codes": [
+        "SS16726",
+        "SS16727"
+      ],
+      "use_by": [
+        "2026-07-16",
+        "2026-07-20"
+      ]
+    }
+  }
+]

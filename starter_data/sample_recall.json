@@ -1,0 +1,21 @@
+{
+  "recall_id": "FSAI_DEMO_001",
+  "authority": "FSAI",
+  "product_name": "Smoked Salmon Slices",
+  "brand": "Example Fish Company",
+  "pack_sizes": [
+    "150g"
+  ],
+  "batch_codes": [
+    "SS16726"
+  ],
+  "use_by": [
+    "2026-07-16"
+  ],
+  "best_before": [],
+  "hazard": "Listeria monocytogenes",
+  "source_url": "https://example.invalid/fsai-demo-001",
+  "published_date": "2026-07-10",
+  "source_type": "demo_placeholder",
+  "is_public_source_verified": false
+}

@@ -1,0 +1,7 @@
+streamlit>=1.57
+rapidfuzz>=3.9
+pytest>=8.0
+requests>=2.32
+playwright>=1.48
+beautifulsoup4>=4.12
+python-dotenv>=1.0

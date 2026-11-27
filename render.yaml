@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: sentioh-agentic-platform
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.2
+      - key: SENTIOH_PLANNER
+        value: llm
+      - key: SENTIOH_LLM_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: SENTIOH_LLM_MODEL
+        value: openai/gpt-oss-20b
+      - key: SENTIOH_DB_PATH
+        value: /tmp/sentioh_cases.db
+      - key: SENTIOH_AUDIT_DIR
+        value: /tmp/audit_exports
+      - key: GROQ_API_KEY
+        sync: false

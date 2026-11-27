@@ -1,0 +1,13 @@
+scenario_id,recall_id,sku,expected_status,scenario_type,description
+SCN001,FSAI_DEMO_001,SKU001,CONFIRMED,TRUE_AFFECTED_PRODUCT,"Exact recalled product, pack, lot and date."
+SCN002,FSAI_DEMO_001,SKU004,NOT_AFFECTED,SAME_PRODUCT_WRONG_LOT,"Same product/brand/pack, wrong lot."
+SCN003,FSAI_DEMO_001,SKU003,NOT_AFFECTED,SIMILAR_NAME_FALSE_POSITIVE,"Highly similar product name, but brand differs."
+SCN004,FSAI_DEMO_001,SKU002,NOT_AFFECTED,WRONG_PACK_SIZE,"Same name and lot, wrong pack size."
+SCN005,FSAI_DEMO_002,SKU005,POSSIBLE,MISSING_LOT_POSSIBLE,"Relevant product/date, no decisive recalled lot."
+SCN006,FSAI_DEMO_002,SKU006,INSUFFICIENT_EVIDENCE,SIMILAR_NAME_FALSE_POSITIVE,Similar name does not establish product identity safely.
+SCN007,FSAI_DEMO_002,SKU007,NOT_AFFECTED,WRONG_PACK_SIZE,"Same base product, wrong pack size."
+SCN008,FSAI_DEMO_003,SKU008,CONFIRMED,TRUE_AFFECTED_PRODUCT,"Exact peanut butter product, pack, lot and date."
+SCN009,FSAI_DEMO_003,SKU009,NOT_AFFECTED,SAME_PRODUCT_WRONG_LOT,"Same product and pack, wrong lot."
+SCN010,FSAI_DEMO_003,SKU010,NOT_AFFECTED,SIMILAR_NAME_FALSE_POSITIVE,"Similar product name, but brand differs."
+SCN011,FSAI_DEMO_001,SKU100,INSUFFICIENT_EVIDENCE,UNRELATED_PRODUCT,Unrelated catalogue product.
+SCN012,FSAI_DEMO_003,SKU250,INSUFFICIENT_EVIDENCE,UNRELATED_PRODUCT,Unrelated catalogue product.

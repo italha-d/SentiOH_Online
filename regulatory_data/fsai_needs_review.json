@@ -1,0 +1,144 @@
+[
+  {
+    "recall_id": "FSAI_2026_33_0A5210CEAA",
+    "official_recall_id": "2026.33",
+    "authority": "Food Safety Authority of Ireland (FSAI)",
+    "alert_versions": [
+      "Base"
+    ],
+    "product_name": "Pettitt's Kitchen products (multiple products; see FSAI source list)",
+    "brand": null,
+    "pack_sizes": [],
+    "batch_codes": [],
+    "use_by": [],
+    "best_before": [],
+    "date_scope_text": [],
+    "hazard": "Listeria monocytogenes",
+    "hazard_history": [
+      "Listeria monocytogenes"
+    ],
+    "country_of_origin": [
+      "Ireland"
+    ],
+    "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-pettitt-s-ready-to-e",
+    "published_date": "2026-06-17",
+    "source_history": [
+      {
+        "alert_version": "Base",
+        "published_date": "2026-06-17",
+        "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-specific-batches-of-pettitt-s-ready-to-e",
+        "image_url": "https://www.fsai.ie/getmedia/affacaeb-484f-4f0f-be1b-d64f9693f4e9/Pettitt-s-Kitchen.png?width=570&height=310&ext=.png",
+        "quality": "REVIEW_REQUIRED"
+      }
+    ],
+    "image_url": "https://www.fsai.ie/getmedia/affacaeb-484f-4f0f-be1b-d64f9693f4e9/Pettitt-s-Kitchen.png?width=570&height=310&ext=.png",
+    "image_urls": [
+      "https://www.fsai.ie/getmedia/affacaeb-484f-4f0f-be1b-d64f9693f4e9/Pettitt-s-Kitchen.png?width=570&height=310&ext=.png"
+    ],
+    "source_type": "official_fsai_snapshot",
+    "ingestion_status": "REVIEW_REQUIRED",
+    "data_quality_labels": [
+      "REVIEW_REQUIRED"
+    ],
+    "review_reason": "Official FSAI page refers to a detailed product/use-by list that was not exposed by the supplied scrape. Product-level rows are intentionally not invented.",
+    "is_public_source_verified": false,
+    "manufacturer": null,
+    "gtins": [],
+    "barcodes": [],
+    "source_note": "Regulatory recall evidence captured from the official FSAI food-alert source. Missing public fields remain empty rather than being inferred."
+  },
+  {
+    "recall_id": "FSAI_2026_24_277E8D6ED2",
+    "official_recall_id": "2026.24",
+    "authority": "Food Safety Authority of Ireland (FSAI)",
+    "alert_versions": [
+      "Base"
+    ],
+    "product_name": "Western Brand chicken products (multiple products; see FSAI source list)",
+    "brand": null,
+    "pack_sizes": [],
+    "batch_codes": [],
+    "use_by": [],
+    "best_before": [],
+    "date_scope_text": [],
+    "hazard": "Salmonella",
+    "hazard_history": [
+      "Salmonella"
+    ],
+    "country_of_origin": [
+      "Ireland"
+    ],
+    "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-western-brand-chicken-products",
+    "published_date": "2026-05-14",
+    "source_history": [
+      {
+        "alert_version": "Base",
+        "published_date": "2026-05-14",
+        "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-western-brand-chicken-products",
+        "image_url": "https://www.fsai.ie/getmedia/a04aa06b-3cb0-4fdf-82d7-448981558bb5/Western-Brand-images-for-banner.png?width=850&height=457&ext=.png",
+        "quality": "REVIEW_REQUIRED"
+      }
+    ],
+    "image_url": "https://www.fsai.ie/getmedia/a04aa06b-3cb0-4fdf-82d7-448981558bb5/Western-Brand-images-for-banner.png?width=850&height=457&ext=.png",
+    "image_urls": [
+      "https://www.fsai.ie/getmedia/a04aa06b-3cb0-4fdf-82d7-448981558bb5/Western-Brand-images-for-banner.png?width=850&height=457&ext=.png"
+    ],
+    "source_type": "official_fsai_snapshot",
+    "ingestion_status": "REVIEW_REQUIRED",
+    "data_quality_labels": [
+      "REVIEW_REQUIRED"
+    ],
+    "review_reason": "Official FSAI page refers to a detailed product/batch list, but the supplied scraper did not extract that list reliably. Product-level rows are intentionally not invented.",
+    "is_public_source_verified": false,
+    "manufacturer": null,
+    "gtins": [],
+    "barcodes": [],
+    "source_note": "Regulatory recall evidence captured from the official FSAI food-alert source. Missing public fields remain empty rather than being inferred."
+  },
+  {
+    "recall_id": "FSAI_2026_01_63444B2B9D",
+    "official_recall_id": "2026.01",
+    "authority": "Food Safety Authority of Ireland (FSAI)",
+    "alert_versions": [
+      "Update 4"
+    ],
+    "product_name": "Additional SMA infant formula and follow-on formula products (see FSAI Update 4 list)",
+    "brand": null,
+    "pack_sizes": [],
+    "batch_codes": [],
+    "use_by": [],
+    "best_before": [],
+    "date_scope_text": [],
+    "hazard": "cereulide",
+    "hazard_history": [
+      "cereulide"
+    ],
+    "country_of_origin": [],
+    "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/further-update-to-sma-infant-formula-and-follow-on",
+    "published_date": "2026-01-13",
+    "source_history": [
+      {
+        "alert_version": "Update 4",
+        "published_date": "2026-01-13",
+        "source_url": "https://www.fsai.ie/news-and-alerts/food-alerts/further-update-to-sma-infant-formula-and-follow-on",
+        "image_url": "https://www.fsai.ie/getmedia/a82b2368-ada8-457e-90a5-3651326c205f/SMA-image-for-alert.png?width=562&height=301&ext=.png",
+        "quality": "REVIEW_REQUIRED"
+      }
+    ],
+    "image_url": "https://www.fsai.ie/getmedia/a82b2368-ada8-457e-90a5-3651326c205f/SMA-image-for-alert.png?width=562&height=301&ext=.png",
+    "image_urls": [
+      "https://www.fsai.ie/getmedia/a82b2368-ada8-457e-90a5-3651326c205f/SMA-image-for-alert.png?width=562&height=301&ext=.png"
+    ],
+    "source_type": "official_fsai_snapshot",
+    "ingestion_status": "REVIEW_REQUIRED",
+    "data_quality_labels": [
+      "REVIEW_REQUIRED"
+    ],
+    "review_reason": "FSAI Update 4 contains a separate detailed product/batch list that was not correctly extracted by the supplied scraper; do not infer missing rows.",
+    "is_public_source_verified": false,
+    "manufacturer": null,
+    "gtins": [],
+    "barcodes": [],
+    "source_note": "Regulatory recall evidence captured from the official FSAI food-alert source. Missing public fields remain empty rather than being inferred."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "scenario_id": "REAL_FSAI_CONFIRMED_1",
+    "recall_id": "FSAI_2026_38_1CA22E0FB5",
+    "official_recall_id": "2026.38",
+    "product_name": "K O'Connell Fishmongers Smoked Salmon Slices",
+    "sku": "SKU398",
+    "expected_status": "CONFIRMED",
+    "expected_reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+    "description": "Official smoked-salmon recall with the affected lot present in synthetic company stock."
+  },
+  {
+    "scenario_id": "REAL_FSAI_CONFIRMED_2",
+    "recall_id": "FSAI_2026_41_E8ADDDB2C6",
+    "official_recall_id": "2026.41",
+    "product_name": "Deluxe Spanish Castellano Sheeps’ Cheese",
+    "sku": "SKU392",
+    "expected_status": "CONFIRMED",
+    "expected_reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+    "description": "Official sheep's-cheese recall with exact affected batch/date in the synthetic company."
+  },
+  {
+    "scenario_id": "REAL_FSAI_CONFIRMED_3",
+    "recall_id": "FSAI_2026_50_C74CC6220A",
+    "official_recall_id": "2026.50",
+    "product_name": "Gem Sesame Seeds",
+    "sku": "SKU393",
+    "expected_status": "CONFIRMED",
+    "expected_reason_code": "EXACT_PRODUCT_AND_LOT_MATCH",
+    "description": "Official Gem sesame-seed recall with an exact affected batch and month-level date scope."
+  },
+  {
+    "scenario_id": "REAL_FSAI_POSSIBLE_1",
+    "recall_id": "FSAI_2026_52_536283A8EF",
+    "official_recall_id": "2026.52",
+    "product_name": "Tesco Sesame Seeds",
+    "sku": "SKU399",
+    "expected_status": "POSSIBLE",
+    "expected_reason_code": "LOT_INFORMATION_MISSING",
+    "description": "Official Tesco sesame-seed recall with missing internal company lot code."
+  },
+  {
+    "scenario_id": "REAL_FSAI_POSSIBLE_2",
+    "recall_id": "FSAI_2026_49_FAD3DA90E4",
+    "official_recall_id": "2026.49",
+    "product_name": "SuperValu Seed Mix",
+    "sku": "SKU394",
+    "expected_status": "POSSIBLE",
+    "expected_reason_code": "LOT_INFORMATION_MISSING",
+    "description": "Official SuperValu Seed Mix recall with matching product/date evidence but missing company lot code."
+  },
+  {
+    "scenario_id": "REAL_FSAI_POSSIBLE_3",
+    "recall_id": "FSAI_2026_36_7108D7BD87",
+    "official_recall_id": "2026.36",
+    "product_name": "Ortiz Sardines in Olive Oil",
+    "sku": "SKU395",
+    "expected_status": "POSSIBLE",
+    "expected_reason_code": "LOT_INFORMATION_MISSING",
+    "description": "Official Ortiz sardines recall with matching product/date evidence but missing company lot code."
+  },
+  {
+    "scenario_id": "REAL_FSAI_NOT_AFFECTED_1",
+    "recall_id": "FSAI_2026_48_ED5AE11C26",
+    "official_recall_id": "2026.48",
+    "product_name": "SuperValu Sesame Seeds",
+    "sku": "SKU400",
+    "expected_status": "NOT_AFFECTED",
+    "expected_reason_code": "LOT_MISMATCH",
+    "description": "Official SuperValu sesame-seed recall with explicitly different synthetic company lots."
+  },
+  {
+    "scenario_id": "REAL_FSAI_NOT_AFFECTED_2",
+    "recall_id": "FSAI_2026_47_B0AC0EFEFD",
+    "official_recall_id": "2026.47",
+    "product_name": "Compania Indilor Orientale Susan Sesame Seeds",
+    "sku": "SKU396",
+    "expected_status": "NOT_AFFECTED",
+    "expected_reason_code": "LOT_MISMATCH",
+    "description": "Official Compania Indilor Orientale sesame-seed recall with a clearly different company lot."
+  },
+  {
+    "scenario_id": "REAL_FSAI_NOT_AFFECTED_3",
+    "recall_id": "FSAI_2026_26_E9F4493B38",
+    "official_recall_id": "2026.26",
+    "product_name": "Leis Sauerampfer (Sorrel)",
+    "sku": "SKU397",
+    "expected_status": "NOT_AFFECTED",
+    "expected_reason_code": "LOT_MISMATCH",
+    "description": "Official Leis Sorrel recall with a clearly different company lot."
+  }
+]
